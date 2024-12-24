@@ -1,5 +1,7 @@
 //Array de divisas
 
+alert ("Bienvenido a la calculadora de divisas")
+
 const divisas = [
     { id: "USD", nombre: "Dolar de Estados Unidos", precio: 1017 },
     { id: "EUR", nombre: "Euro", precio: 1060 },
@@ -46,6 +48,7 @@ function calcularConversion(moneda, monto) {
 
 pedirMoneda()
 
-
+//Me gustaria agregarle a futuro que en vez de que sea solo con pesos argentinos, sea con cualquier moneda
+//y que se pueda elegir la moneda de origen y la moneda de destino
 
 
